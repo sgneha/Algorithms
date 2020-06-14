@@ -1,13 +1,13 @@
 package Sorting.Selection_sort;
 
 class Selection {
-    static void swap(int A[], int i, int j) {
+    void swap(int A[], int i, int j) {
         int temp = A[i];
         A[i] = A[j];
         A[j] = temp;
     }
 
-    static int findMinIndex(int A[], int start) {
+    int findMinIndex(int A[], int start) {
         int min_index = start;
 
         ++start;
@@ -22,7 +22,7 @@ class Selection {
         return min_index;
     }
 
-    static void selectionSort(int A[]) {
+    void selectionSort(int A[]) {
         for (int i = 0; i < A.length; ++i) {
             int min_index = findMinIndex(A, i);
 
@@ -33,9 +33,8 @@ class Selection {
 
     public static void main(String[] args) {
         int A[] = { 5, 2, 6, 7, 2, 1, 0, 3 };
-
-        selectionSort(A);
-
+        Selection sort = new Selection();
+        sort.selectionSort(A);
         for (int num : A)
             System.out.print(num + " ");
 
