@@ -16,7 +16,7 @@ class Insertion {
 
     }
 
-    static void printArray(int arr[], int n) {
+    void printArray(int arr[], int n) {
 
         for (int i = 0; i < n; i++) {
             System.out.println(arr[i] + " ");
@@ -29,7 +29,7 @@ class Insertion {
         Insertion obj = new Insertion();
         int n = arr.length;
         obj.sort(arr, n);
-        printArray(arr, n);
+        obj.printArray(arr, n);
 
     }
 }
