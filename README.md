@@ -1,4 +1,5 @@
 ### DataStructure
+* Array
 * LinkedList
 * Tree
 ### Seacrh
