@@ -1,3 +1,5 @@
+Algorithms And Datastructure pracice which involves the concepts of Recursion,BFS,DFS,Graph traversals,Stacks,Queues,Hash Maps.
+
 ### DataStructure
 * Array
 * LinkedList
