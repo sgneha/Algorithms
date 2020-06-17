@@ -44,4 +44,18 @@ The given node will not be the tail and it will always be a valid node of the li
 Do not return anything from your function.
 
 #### Solution
+
 https://github.com/sgneha/Algorithms/blob/master/DataStructure/LinkedList/DeleteMiddle.java
+
+#### \* Question 4
+
+Given a singly linked list, determine if it is a palindrome.
+
+Example 1:
+
+Input: 1->2
+Output: false
+Example 2:
+
+Input: 1->2->2->1
+Output: true
